@@ -1,0 +1,88 @@
+body {margin: 0; 
+      font-family: sans-serif; 
+      background-image: url(Background.jpg)}
+
+.header {color: white;
+         background: green; 
+         height: 70px;}
+
+.logo {float: left;
+       padding-left: 10px;}
+
+.navbar {float: right;}
+
+.navbar ul {list-style: none; 
+            padding-top: 10px;}
+.navbar ul li {display: inline; 
+               margin: 10px;
+               text-decoration: none; 
+               color: white;}
+.navbar ul li a {text-decoration: none;
+                 color: white;}
+.navbar ul li a:hover {color: black;}
+
+.highlight {text-align: center;
+            padding-top: 20px;}
+
+.highlight img {border: 3px solid white;
+                justify-content: center;}
+
+.gambar .foto img {width: 200px; 
+                   height: 300px;}
+.gambar {width: 90%; 
+         display: grid; 
+         grid-template-columns: 1fr 1fr 1fr; 
+         margin: auto;
+         justify-content: center;}
+
+.foto {text-align: center;
+       padding-top: 20px;
+       padding-bottom: 50px;}         
+
+.foto h1 {font-size: large; color: whitesmoke;}         
+
+.foto .books {border: 2px solid white; 
+              margin: 10px;}
+       
+.foto a{border: 1px solid green; 
+        padding: 10px; 
+        color: white; 
+        background: green; 
+        text-decoration: none; 
+        border-radius: 20px;}
+.foto a:hover {color: black;}        
+
+.footer {text-align: center; 
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         background: green; 
+         height: 70px;
+         box-sizing: border-box;}
+.footer a {text-decoration: none;
+        color: white;}
+.footer a:hover {color: aqua;}
+
+.highlight img {width: 400px;
+                height: 600px;}
+
+.thumb {box-sizing: border-box;
+        align-content: center;
+        flex-direction: row;}
+
+.thumb:hover{opacity: 0,5;
+             cursor: pointer;}
+
+@keyframes fadeIn {to {opacity: 1;} }
+
+.fade {opacity: 0;
+       animation: fadeIn 0.5s forwards;}
+
+.active {opacity: 0.5;}
+
+.books:hover {opacity: 0.5;
+              cursor: pointer;}
+
+
+
